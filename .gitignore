@@ -1,0 +1,68 @@
+build
+build_*
+xbuild
+b_build
+
+icons
+
+sndkit
+stk
+
+fs/
+
+examples
+dump
+bak
+out
+.cache/*
+
+# XCode build
+CMakeFiles
+CMakeScripts
+WoopyOne_artefacts
+WoopyOne.*
+*.xcodeproj
+CMakeCache.txt
+cmake_install.cmake
+.cmake
+
+# _deps
+# cmake/portaudio
+# CMakeFiles
+# CMakeScripts
+# Debug
+# Prerequisites
+*.d
+
+# Junnk files
+.DS_Store
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app

@@ -1,0 +1,15 @@
+Checks: "
+  clang-diagnostic-*,\
+  clang-analyzer-*,\
+  cppcoreguidelines-*,\
+  google-*,\
+  modernize-*,\
+  -modernize-use-trailing-return-type,\
+  misc-*,\
+  readability-*,\
+  performance-*,\
+  portability-*,\
+  bugprone-*,\
+  readability-*,\
+  "
+HeaderFilterRegex: '**/src/*\.(hpp|h)'
